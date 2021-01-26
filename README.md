@@ -30,4 +30,4 @@ DB_PASSWORD=<db-password>
 
 This is just the initial idea, yet to be implemented. We will need to write a docker image that will run the frontend and backend together, and expose it on a single port [using a nginx reverse proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy) if possible.
 
-It would require some minor tweaks in the application code, for example the DB connection environment variables currently have the prefix `RDS_` which we would need to rename to `DB_`
+It would require some minor tweaks in the application code, for example the DB connection environment variables currently have the prefix `RDS_` which we would need to rename to `DB_`. Also for frontend, the backend URL and other paramters are currently hardcoded in code. We would need to find a way to configure them at build time or runtime via environment variables. 
