@@ -2,7 +2,7 @@
 
 > **This is work in progress and not yet ready for usage.**
 
-This is the git repo of the official Docker image for SimplQ. You can use docker host [SimplQ.me](https://simplq.me) on your own.
+This is the git repo of the official Docker image for [SimplQ.me](https://simplq.me). 
 
 ## Get Started in Two Minutes
 
