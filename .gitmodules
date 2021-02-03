@@ -1,0 +1,6 @@
+[submodule "simplQ-frontend"]
+	path = simplQ-frontend
+	url = git@github.com:SimplQ/simplQ-frontend.git
+[submodule "simplQ-backend"]
+        path = simplQ-backend
+        url = git@github.com:SimplQ/simplQ-backend.git
